@@ -1,0 +1,13 @@
+cloud:
+  aws:
+    region:
+      static: ap-south-1c
+    stack:
+      auto: false
+
+application:
+    rds:
+    name: utilstuff-reverb-2020
+
+server:
+  port: 9090

@@ -1,0 +1,13 @@
+cloud:
+  aws:
+    region:
+      static: us-east-1
+    stack:
+      auto: false
+
+application:
+  sns:
+    topic: arn:aws:sns:us-east-1:902732909790:reverbNotifications
+
+server:
+  port: 9090
