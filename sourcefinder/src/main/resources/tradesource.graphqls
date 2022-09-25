@@ -1,0 +1,14 @@
+type Query{
+getAllSources : [TradeSource]
+findSourceByTicker(ticker: String) : TradeSource
+}
+
+type TradeSource{
+
+id: String
+sourceName: String
+marketSegment: String
+ticker: String
+isin: Float
+
+}
